@@ -1,5 +1,5 @@
 from typing import Union
-
+import doctest
 # TODO Написать 3 класса с документацией и аннотацией типов
 class Cat:
     """Класс, описывающий кота.
@@ -347,6 +347,4 @@ class Car:
 
 if __name__ == "__main__":
     # TODO работоспособность экземпляров класса проверить с помощью doctest
-    import doctest
     doctest.testmod()
-    pass
